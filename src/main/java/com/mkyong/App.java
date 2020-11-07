@@ -14,7 +14,7 @@ public class App {
     public static void main(String[] args) throws IOException {
 
         if (args.length < 1) {
-            System.err.println("[Usage] jar -jar find-links.jar <url>");
+            System.err.println("[Usage] jar -jar find-links.jar <url>. URL is mandatory");
             return;
         }
 
